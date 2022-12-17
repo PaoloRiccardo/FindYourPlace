@@ -1,0 +1,202 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: sans-serif;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    position: relative;
+    top: -3em;
+}
+
+h2 {
+    display: none;
+    position: relative;
+    top: -0.6em;
+    font-weight: bold;
+    color: white;
+    font-size: 54px;
+    background: linear-gradient(90deg,#decc00,#ff0048);
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 35px;
+    padding: 5px;
+}
+.box {
+    position: relative;
+    top: -12em;
+    left: 30em;
+    width: 500px;
+}
+
+.form_name {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+    background: #fff;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #B993D6 0%, #8CA6DB 51%, #B993D6 100%);
+    color: black;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%);
+}
+
+
+.container {
+    position: relative;
+    top: -10em;
+}
+
+.modificaParagrafo {
+    font-size: 35px;
+    margin: 35px;
+    color: white;
+    position: relative;
+    top: -1em;
+}
+
+.modificastile {
+    padding: 5px;
+    position: relative;
+    align-items: center;
+    margin: 35px;
+    font-size: 40px;
+    background: linear-gradient(90deg,#00dbde,#fc00ff);
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#cat0.modificastile{
+    top: 8.9em;
+}
+
+#cat1.modificastile {
+    top: -92px;
+    left: 11.9em;
+}
+
+#cat3.modificastile {
+    top: -4.5em;
+    left: 11.4em;
+}
+
+#cat4.modificastile{
+    top: 2em;
+    left: 10.7em;
+}
+
+#cat5.modificastile{
+    top: -4.6em;
+    left: 26.65em;
+
+}
+
+#cat6.modificastile{
+    top: -4.7em;
+    left: 11.1em;
+}
+
+#cat7.modificastile{
+    top: -6.9em;
+    left: 27.5em;
+}
+
+#cat8.modificastile{
+    top: -18.3em;
+}
+
+#cat9.modificastile{
+    top: -20.5em;
+    left: 26.3em;
+}
+
+#cat10.modificastile{
+    top: -9.5em;
+    left: 10.3em;
+}
+
+#cat11.modificastile{
+    top: -20.4em;
+    left: 26.65em;
+}
+
+#cat12.modificastile{
+    top: -20.5em;
+}
+
+#cat13.modificastile{
+    top: -24.9em;
+    left: 11.4em;
+}
+
+#cat14.modificastile{
+    top: -25.1em;
+    left: 11.2em;
+}
+
+#cat15.modificastile{
+    top: -31.9em;
+}
+
+#cat16.modificastile{
+    top: -34.1em;
+    left: 26.37em;
+}
+
+.error {
+    color: red;
+    font-size: 40px;
+    margin: 25px;
+    padding: 5px;
+    position: relative;
+    left: 3em;
+}
+
+
+@media (max-width: 768px) {
+
+    body{
+        display: flex;
+        align-items: center;
+        width: auto;
+    }
+}
