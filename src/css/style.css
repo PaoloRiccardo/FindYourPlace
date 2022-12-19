@@ -1,9 +1,10 @@
 *,
 *::after,
 *::before {
-  margin: 0;
+    margin: 0;
   padding: 0;
   box-sizing: inherit;
+
 }
 
 body{
@@ -102,84 +103,103 @@ h2 {
     text-transform: uppercase;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 #cat0.modificastile{
     top: 8.9em;
+    width: 265px;
 }
 
 #cat1.modificastile {
     top: -92px;
     left: 11.9em;
+    width: 500px;
+}
+
+#cat2.modificastile {
+    width: 288px;
 }
 
 #cat3.modificastile {
     top: -4.5em;
     left: 11.4em;
+    width: 500px;
 }
 
 #cat4.modificastile{
     top: 2em;
     left: 10.7em;
+    width: 550px;
 }
 
 #cat5.modificastile{
     top: -4.6em;
     left: 26.65em;
+    width: 285px;
 
 }
 
 #cat6.modificastile{
     top: -4.7em;
     left: 11.1em;
+    width: 550px;
 }
 
 #cat7.modificastile{
     top: -6.9em;
     left: 27.5em;
+    width: 232px;
 }
 
 #cat8.modificastile{
     top: -18.3em;
+    width: 344px;
 }
 
 #cat9.modificastile{
     top: -20.5em;
     left: 26.3em;
+    width: 311px;
 }
 
 #cat10.modificastile{
     top: -9.5em;
     left: 10.3em;
+    width: 600px;
 }
 
 #cat11.modificastile{
     top: -20.4em;
     left: 26.65em;
+    width: 283px
 }
 
 #cat12.modificastile{
     top: -20.5em;
+    width: 272px;
 }
 
 #cat13.modificastile{
     top: -24.9em;
     left: 11.4em;
+    width: 500px;
 }
 
 #cat14.modificastile{
     top: -25.1em;
     left: 11.2em;
+    width: 500px;
 }
 
 #cat15.modificastile{
     top: -31.9em;
+    width: 322px;
 }
 
 #cat16.modificastile{
     top: -34.1em;
     left: 26.37em;
+    width: 309px;
 }
 
 .error {
@@ -195,19 +215,18 @@ h2 {
 @media (max-width: 768px) {
 
     body{
-        display: flex;
-        align-items: center;
-        width: auto;
+        background: #302b63;
     }
 
     img {    
-        left: -3em;
+        left: -1em;
         position: relative;
     }
 
     .box {
         position: relative;
         left: 1em;
+        margin: 10px;
     }
 
     .form_name {
@@ -217,7 +236,7 @@ h2 {
 
     .btn {
         width: 6em;
-        height: 52px;
+        height: 50px;
     }
 
     .error {
@@ -225,5 +244,28 @@ h2 {
         font-size: 20px;
         align-items: center;
     }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .modificaParagrafo {
+        font-size: 25px;
+    }
+
+    .modificastile {
+        padding-top: 8px;
+        padding-right: 0;
+        margin: 35px;
+        font-size: 20px;
+        background: linear-gradient(90deg,#00dbde,#fc00ff);
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: unset;
+        width: 299px;
+    }
+
+
 }
 
