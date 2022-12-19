@@ -241,8 +241,10 @@ h2 {
 
     .error {
         color: red;
+        width: 295px;
         font-size: 20px;
-        align-items: center;
+        position: relative;
+        left: 1em;
     }
 
     h2 {
