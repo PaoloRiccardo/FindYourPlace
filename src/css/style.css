@@ -11,6 +11,9 @@ body{
     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
 }
 
 .title {
@@ -199,4 +202,31 @@ h2 {
         align-items: center;
         width: auto;
     }
+
+    img {    
+        left: -3em;
+        position: relative;
+    }
+
+    .box {
+        position: relative;
+        left: 1em;
+    }
+
+    .form_name {
+        width: 11em;
+        height: 50px;    
+    }
+
+    .btn {
+        width: 6em;
+        height: 52px;
+    }
+
+    .error {
+        color: red;
+        font-size: 20px;
+        align-items: center;
+    }
 }
+

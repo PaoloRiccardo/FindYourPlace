@@ -33,7 +33,8 @@ bottone.addEventListener('click', function(){
         } catch {
             subtitle.style.display ="none";
             const elem = document.createElement("div");
-            elem.textContent = `Entered city not listed or enter name in English, please try again`;
+            elem.textContent = `Entered city not listed or enter name in English,
+            please try again`;
             elem.setAttribute("class", "error");
             document.getElementById('categorie').appendChild(elem);
             
